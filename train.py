@@ -14,8 +14,8 @@ from sampler import distributedGroupSampler,groupSampler
 from dataloader import build_dataloader
 
 pretrained_path={
-    50:"/home/buddhisant/workspace/python/ATSS/pretrained/resnet50_pytorch.pth",
-    101:"/home/buddhisant/workspace/python/ATSS/pretrained/resnet101_pytorch.pth"
+    50:"./pretrained/resnet50_pytorch.pth",
+    101:"./pretrained/resnet101_pytorch.pth"
 }
 
 def train(is_dist,start_epoch,local_rank):

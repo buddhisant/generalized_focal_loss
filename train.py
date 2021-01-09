@@ -117,7 +117,7 @@ def main():
     parser=argparse.ArgumentParser(description="GFL")
     parser.add_argument("--local_rank", type=int, default=0)
     parser.add_argument("--start_epoch", type=int, default=1)
-    parser.add_argument("--dist",action="store_true",default=True)
+    parser.add_argument("--dist",action="store_true",default=False)
 
 
     args=parser.parse_args()

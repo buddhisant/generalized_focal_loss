@@ -311,10 +311,3 @@ class GFLLoss(torch.nn.Module):
         giou_loss=self.giou_loss_func(giou_preds_batch,giou_targets_batch,avg_factor=num_weight,weights=weight_batch)
 
         return {"qfl_loss":qfl_loss,"dfl_loss":dfl_loss,"giou_loss":giou_loss}
-
-if __name__ == "__main__":
-    tt=open("a.txt",mode="a")
-    tt.write("cccccc \n")
-
-    for i in range(10):
-        tt.write("ss \n")

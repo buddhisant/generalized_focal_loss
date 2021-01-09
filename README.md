@@ -15,7 +15,7 @@ generalized_focal_loss的pytorch实现，支持多卡分布式训练
 
 |  | map | 推理速度 |
 |:-:|:-:|:-:|
-|本文 | | 21.11 |
+|本文 |40.2 | 21.11 |
 |mmdetection对应配置|40.2| 19.5 |
 
 推理速度在rtx2080ti上测得

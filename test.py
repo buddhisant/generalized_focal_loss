@@ -13,7 +13,7 @@ from tqdm import tqdm
 from gfl import GFL
 from dataloader import build_dataloader
 
-def tttt(epochs_tested):
+def test(epochs_tested):
     is_train=False
     transforms = transform.build_transforms(is_train=is_train)
     coco_dataset = dataset.COCODataset(is_train=is_train, transforms=transforms)
@@ -76,7 +76,7 @@ def tttt(epochs_tested):
 def main():
     epochs_tested=[5,]
     utils.mkdir(cfg.output_path)
-    tttt(epochs_tested)
+    test(epochs_tested)
 
 if __name__ == "__main__":
     main()

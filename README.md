@@ -12,6 +12,7 @@ generalized_focal_loss的pytorch实现，支持多卡分布式训练
 **请确保已经安装pycocotools以及1.1.0版本以上的pytorch**
 
 # 性能
+![performance](https://raw.githubusercontent.com/buddhisant/generalized_focal_loss/main/performance.png)
 
 |  | map | 推理速度 |
 |:-:|:-:|:-:|
